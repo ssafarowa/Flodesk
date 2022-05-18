@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-img{
+    width: auto;
+    height: 58px;
+    object-fit: cover;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    margin-top: 210px;
+}
+
+.welcome{
+    text-align: center;
+    margin-top: 45px;
+    font-weight: 700;
+    font-size: 17px;    
+}
+
+.email{
+    padding: 20px 130px 20px 25px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+::-webkit-input-placeholder {
+    text-align: left;
+    font-size: 16px;
+    }
+
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 15px 45px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.pasw{
+    padding: 20px 130px 20px 25px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+}
+    
+.sign-up{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(119, 114, 114);
+    margin-bottom: 5px;
+    margin-top: 45px;
+}
+
+.tncs{
+    font-size: 13px;
+    line-height: 18px;
+    color: rgb(146, 140, 140);
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+span{
+    color: rgb(46, 44, 44);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 6%;
+}
+
+.nav-logo{
+    width: auto;
+    height: 40px;
+    object-fit: cover;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    padding-inline-start: 0;  
+    align-items: center;
+    
+}
+
+.nav-link{
+    margin: 0 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover{
+    color: grey;
+}
+
+.nav-button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 4px 15px;
+    font-size: 15px;
+    border: none;
+    height: 27px;
+    border-image-width: 0;
+}
+
+@media (max-width:576px){
+    .nav-link{
+        display: none;
+    }
+}
